@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs
+/Demo-WS-SOAP/Demo-WS-SOAP/bin
+/Demo-WS-SOAP/Demo-WS-SOAP/obj/Debug
