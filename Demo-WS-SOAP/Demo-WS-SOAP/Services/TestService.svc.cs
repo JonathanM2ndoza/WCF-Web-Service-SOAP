@@ -7,9 +7,9 @@ namespace Demo_WS_SOAP.Services
     // NOTE: In order to launch WCF Test Client for testing this service, please select TestService.svc or TestService.svc.cs at the Solution Explorer and start debugging.
     public class TestService : ITestService
     {
-        public string GetData(int value)
+        public string GetData(int value, int value2)
         {
-            return string.Format("You entered: {0}", value);
+            return string.Format("You entered: {0}, {1}", value, value2);
         }
 
         public CompositeType GetDataUsingDataContract(CompositeType composite)

@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-WS-SOAP", "Demo-WS-SOAP\Demo-WS-SOAP.csproj", "{7244ED49-C7DB-4A50-B9FB-80A5551B15E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAP-Client", "SOAP-Client\SOAP-Client.csproj", "{24EDDCCF-BC9E-4F8C-A491-75440067607E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7244ED49-C7DB-4A50-B9FB-80A5551B15E0} = {7244ED49-C7DB-4A50-B9FB-80A5551B15E0}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{7244ED49-C7DB-4A50-B9FB-80A5551B15E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7244ED49-C7DB-4A50-B9FB-80A5551B15E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7244ED49-C7DB-4A50-B9FB-80A5551B15E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24EDDCCF-BC9E-4F8C-A491-75440067607E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24EDDCCF-BC9E-4F8C-A491-75440067607E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24EDDCCF-BC9E-4F8C-A491-75440067607E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24EDDCCF-BC9E-4F8C-A491-75440067607E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,3 +5,5 @@
 /.vs
 /Demo-WS-SOAP/Demo-WS-SOAP/bin
 /Demo-WS-SOAP/Demo-WS-SOAP/obj/Debug
+/Demo-WS-SOAP/SOAP-Client/obj/Debug
+/Demo-WS-SOAP/SOAP-Client/bin/Debug

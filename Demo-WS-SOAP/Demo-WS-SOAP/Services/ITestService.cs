@@ -9,7 +9,7 @@ namespace Demo_WS_SOAP.Services
     {
 
         [OperationContract]
-        string GetData(int value);
+        string GetData(int value, int value2);
 
         [OperationContract]
 
